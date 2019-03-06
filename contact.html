@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>YM Ice Cream</title>
+    <!--link to bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!--link to css-->
+    <link rel="stylesheet" href="./assets/css/styleID.css">
+    <link rel="stylesheet" href="./assets/css/styleClass.css">
+    <link rel="stylesheet" href="./assets/css/styleElements.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand navbar-light bg-light flex-column flex-md-row bd-navbar">
+        <span class="navbar-brand mb-0 h1" id="ymTitle">Yummy Monkey Ice Cream</span>
+        <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
+            <ul class="navbar-nav ml-auto flex-nowrap">
+                <li class="nav-item">
+                    <a href="./index.html" class="nav-link m-2 menu-item ">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./portafolio.html" class="nav-link m-2 menu-item">Portafolio</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="#" class="nav-link m-2 menu-item">Contact</a>
+                </li>
+        </div>
+      </nav>
+      <!--Main content-->
+      <div class="container" id="mainContainer">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Contact</h1>
+                <hr>
+            </div>  
+        </div>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <form action="">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter your complete name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+                    </div>
+                    <div class="form-group">
+                        <label for="textarea">Message</label>
+                        <textarea class="form-control" id="textarea" rows="3" placeholder="Type your message"></textarea>
+                    </div>      
+                    <button type="submit" class="btn btn-info">Submit</button>
+                </form>
+                <br>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+      </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12" id="ymFooter">
+                <p> copyright @ecode</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
