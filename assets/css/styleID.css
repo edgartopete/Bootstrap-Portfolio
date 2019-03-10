@@ -4,8 +4,8 @@
     padding: 10px;
 }
 #bio-image {
-    width: 200px;
-    height: 180px;
+    width: 100%;
+    height: auto;
 }
 #mainContainer{
     background-color: white;
@@ -16,18 +16,4 @@
     text-align: center;
     border-top:4px solid #00A499;
 }
-/* #header{
-    width: 960px;
-    height: 50px;
-    margin:0 auto; 
-}
-#nav {
-	display: inline-block;
-}
 
-ul#menu li{
-    display: inline;
-}
-ul#menu  li a:hover {
-	color: #00A499;
-} */
